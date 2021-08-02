@@ -17,8 +17,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/pervoj/valdo-gtk",
-                    "tag" : "v0.0.1-2",
-                    "commit" : "c452b840aca91c02d379f3957f404cb00393ad62"
+                    "tag" : "v0.0.2",
+                    "commit" : "4db2d34eae9a06eb347208cb3424b8e7617d9d39"
                 }
             ]
         }
