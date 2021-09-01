@@ -7,18 +7,23 @@
     "finish-args" : [
         "--share=ipc",
         "--socket=fallback-x11",
-        "--socket=wayland"
+        "--socket=wayland",
+        "--filesystem=home",
+        "--filesystem=host"
     ],
     "modules" : [
         {
             "name" : "valdo-gtk",
             "buildsystem" : "meson",
+            "config-opts": [
+                "-Dsandbox=true"
+            ],
             "sources" : [
                 {
                     "type" : "git",
                     "url" : "https://github.com/pervoj/valdo-gtk",
-                    "tag" : "v0.0.3",
-                    "commit" : "ca3f32d59b6993ee9cd8878dde27f0c7b74c3bbf"
+                    "tag" : "v0.1.0",
+                    "commit" : "b805695f7f25d5f793ada52a35377693b4594032"
                 }
             ]
         }
