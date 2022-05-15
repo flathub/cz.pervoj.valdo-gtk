@@ -1,7 +1,7 @@
 {
     "app-id" : "cz.pervoj.valdo-gtk",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "40",
+    "runtime-version" : "42",
     "sdk" : "org.gnome.Sdk",
     "command" : "valdo-gtk",
     "finish-args" : [
